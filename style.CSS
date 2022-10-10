@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#head1{
+    display: flex;
+    height: 15vh;
+    width:  100wh;
+    background-color: lightseagreen;
+    padding-left: auto;
+    padding-right: auto;
+    align-items: center;
+}
+
+#head1 h1{
+    padding-left: 35%;
+    font-size: 5vw;
+    color: aliceblue;
+}
+
+#image {
+    margin-top: 5%;
+    padding-left: auto;
+    padding-right: auto;
+}
+ 
+#image img[alt="food1"] {
+    height: 20%;
+    width: 20%;
+    margin-left: 15%;
+    border: 15px solid  lightseagreen;
+}
+
+#image img[alt="food2"] {
+    height: 18%;
+    width: 18%;
+    margin-left: 5%;
+    border: 12px solid  lightseagreen;
+    border-style: dashed;
+}
+
+#image img[alt="food3"] {
+    height: 14%;
+    width: 14%;
+    margin-left: 5%;
+    border: 15px solid  lightseagreen;
+    border-style: dotted;
+}
+
+#image img[alt="food4"] {
+    height: 20%;
+    width: 20%;
+    margin-top: 7vh;
+    margin-left: 25%;
+    border: 15px solid  lightseagreen;
+    border-style: groove;
+}
+
+#image img[alt="food5"] {
+    height: 20%;
+    width: 20%;
+    margin-left: 7%;
+    border: 15px solid  lightseagreen;
+    border-style: ridge;
+}
+
+#image img[alt="food6"] {
+    height: 18%;
+    width: 18%;
+    margin-top: 5%;
+    margin-left: 28%;
+    border: 15px solid  lightseagreen;
+    border-style: double;
+}
+
+#image img[alt="food7"] {
+    height: 19%;
+    width: 19%;
+    margin-left: 5%;
+    border: 15px solid  lightseagreen;
+    border-style: inherit;
+}
+
+#box {
+    height: 70%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 10px solid rgb(4, 131, 0);
+    border-bottom: 10px solid blue;
+    border-left: 10px solid rgb(189, 7, 189);
+    border-right: 10px solid rgb(78, 0, 78);
+    background-color: lightseagreen;
+}
+
+#box h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1cm;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+#box p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2%;
+    font-size: 1cm;
+}
+
+#head2{
+    height: 12vh;
+    width: 100wh;
+    background-color: lightseagreen;
+    margin-top: 5%;
+    display:flex;
+    padding-left: 35%;
+}
+
+#head2 h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+}
+
+#head2 h2:hover{
+    color: blue;
+    text-decoration: underline;
+}
